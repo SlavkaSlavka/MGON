@@ -2,6 +2,7 @@
     padding-left: 15px;
     position: relative;
     overflow: hidden;
+    padding-bottom: 160px;
 }
 .bg-img{
     position: absolute;
@@ -10,6 +11,7 @@
     top: 0;
     width: 100%;
     height: auto;
+    max-height: 750px;
     opacity: 0.5;
     z-index: -1;
 }
