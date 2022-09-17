@@ -1,0 +1,166 @@
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  margin: 10px;
+}
+
+a:visited {
+  color: black;
+}
+
+svg {
+  fill: white;
+  margin-right: 10px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  padding-left: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-img {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.user-navigation {
+  color: #404040;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.user-navigation__link-phone {
+  display: flex;
+  align-items: center;
+}
+
+.user-navigation li a {
+  margin-left: 40px;
+  color: black;
+  line-height: 30px;
+}
+
+.user-navigation li:hover a {
+  color: rgba(35, 123, 144, 0.8);
+  text-decoration: none;
+}
+
+.user-navigation__item-phone:hover svg {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.main-heading {
+  font-size: 52px;
+  line-height: 52px;
+  font-weight: 700;
+  color: rgb(35, 123, 144);
+}
+
+.main-heading_text {
+  white-space: nowrap;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  margin: 30px 0;
+}
+
+.main-heading_text-sale {
+  font-size: 37px;
+  line-height: 37px;
+  font-weight: 900;
+  color: rgb(229, 95, 115);
+}
+
+.main-heading_timer {
+  display: flex;
+}
+
+.main-heading_timer-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 5px;
+  color: rgb(229, 95, 115);
+}
+
+.header-icon {
+  background-color: #237b90;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.heading-btn {
+  margin-top: 15px;
+  display: block;
+  max-width: 320px;
+  margin-right: 0 auto;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 18px 15px;
+  background: #237b90;
+  color: #fff;
+  line-height: 22px;
+  border-color: #237b90;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.heading-btn:visited {
+  color: #fff;
+}
+
+.heading-btn:hover {
+  background: #e55f73;
+  color: #fff;
+}
+
+.main-heading_timer-number {
+  display: flex;
+}
+.main-heading_timer-number span {
+  line-height: 20px;
+  font-size: 20px;
+  font-weight: 800;
+}/*# sourceMappingURL=styles.css.map */
