@@ -1,11 +1,20 @@
+body {
+    padding: 0;
+    margin: 0;
+}
 a {
     text-decoration: none;
 }
 li {
     list-style: none;
 }
+ul {
+    margin: 0;
+    padding: 0;
+}
 .wrapper {
-    margin: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
  a:visited {
 color: black;
@@ -23,5 +32,7 @@ padding: 0;
 
 .logo_img {
     max-width: 150px;
+    border-radius: 50%;
     background-color: transparent;
+    
 }
