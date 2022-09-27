@@ -1,5 +1,7 @@
+.row{
+    display: flex;
+}
 .column {
-    float: left;
     width: calc(25% - 15px);
     margin-bottom: 50px;
     margin-right: 10px;
@@ -12,7 +14,12 @@
         box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
     }
 }
-
+.photo{
+    display: none;
+}
+.activePhoto {
+    display: block;
+}
 h3 {
     font-size: 22px;
         text-align: center;

@@ -5,111 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magon</title>
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
 <body>
     <header>
-        <div class="nav">
-        <nav class="main-navigation">
-            <img class="bg-img" src="./img/ФОТО ДЛЯ ФОНА  или обложки/close-up-of-gray-blanket-on-the-bed.jpg" alt="bg">
-          <div class="main-navigation_wrapper">  <div class="logo"><a class="logo__link" href="#"><img class="logo_img" src="./img/Maga-Textile2.png"></a></div>
-            <ul class="user-navigation">
-                <li class="user-navigation__item"><a href="#">Каталог</a></li>
-                <li class="user-navigation__item"><a href="#">Переваги</a></li>
-                <li class="user-navigation__item"> <a href="#">Відгуки</a></li>
-                <li class="user-navigation__item"><a href="#">Як замовити</a></li>
-                <li class="user-navigation__item-phone">
-                    <a class="user-navigation__link-phone" href="tel:+380931993232"><svg class="header-icon" width="25" height="25" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                        y="0px" width="792px" height="792px" viewBox="0 0 792 792" style="enable-background:new 0 0 792 792;"
-                        xml:space="preserve">
-                        <g>
-                            <path d="M521.806,792c0,0,71.889,0,71.889-71.997V71.997C593.694,0,521.806,0,521.806,0H270.194c0,0-71.889,0-71.889,71.997
-                    		v648.006C198.306,792,270.194,792,270.194,792H521.806z M396,762.022c-19.841,0-35.944-16.104-35.944-35.944
-                    		c0-19.842,16.103-35.944,35.944-35.944c19.842,0,35.944,16.103,35.944,35.944C431.944,745.919,415.842,762.022,396,762.022z
-                    		 M342.083,43.888c0-4.457,2.121-7.944,4.78-7.944h98.272c2.624,0,4.781,3.559,4.781,7.944v2.121c0,4.457-2.157,7.944-4.781,7.944
-                    		h-98.272c-2.624,0-4.78-3.559-4.78-7.944V43.888z M234.25,89.861h323.5v575.111h-323.5V89.861z" />
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                        <g>
-                        </g>
-                    </svg>0931993232</a>
-                </li>
-            </ul>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar__wrap">
+                    <div class="hamb">
+                        <div class="hamb__field" id="hamb">
+                            <span class="bar"></span> <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                    <a href="#" class="logo" id="logo"><img style="border-radius: 50%;" src="./img/Maga-Textile2.png" width="90" height="90"></a>
+                    <ul class="menu" id="menu">
+                        <li><a href="#catalog">Каталог</a></li>
+                        <li><a href="#benefits">Преваги</a></li>
+                        <li><a href="#reviews">Відгуки</a></li>
+                        <li><a href="#information">Як замовити</a></li>
+                        <li class="itemWithIcon"><i class="fa fa-solid fa-mobile mob"></i><a href="tel: +380931234567">093-123-45-67</a></li>
+                    </ul>
+                </div>
             </div>
-        </nav><div class header-content>
-        <h1 class="main-heading">Постільна білизна 3D</h1>
-        <p class="main-heading_text">Ранфорс 100% бавовна</p>
-        <p class="main-heading_text-sale">Увага!</p>
-        <p class="main-heading_text-sale">Тільки сьогодні знижка -50%</p>
-        <div class="main-heading_timer">
-            <p class="main-heading_timer-number"><span class="main-heading_timer-date">18</span> <span class="timer-number"></span>часов</span></p>
-            <p class="main-heading_timer-number"><span class="main-heading_timer-date">18 </span><span class="timer-number"></span> минут</span></p>
-        </div>
-        <a class="heading-btn" href="#">Дивитись каталог</a>
-        </div>
-        </div>
+        </nav>
+        <div class="popup" id="popup"></div>
     </header>
     <main>
+        <div class="wrapper www">
+            <section class="header-text">
+                <img class="bg-img" src="./img/ФОТО ДЛЯ ФОНА  или обложки/close-up-of-gray-blanket-on-the-bed.jpg" alt="bg">
+                <div class="header-content__wrapper">
+                    <h1 class="main-heading">Постільна білизна 3D</h1>
+                    <p class="main-heading_text">Полікоттон: 65% бавовна / 35% поліестер</p>
+                    <p class="main-heading_text-sale">Увага!</p>
+                    <p class="main-heading_text-sale">Тільки сьогодні знижка -50%</p>
+                    <a class="heading__btn" href="#catalog">Дивитись каталог</a>
+                </div>
+            </section>
+        </div>
         <div class="wrapper">
         <section class="catalog">
+            <a name="catalog"></a>
             <h2 class="catalog__heading">Постільна білизна <span class="catalog__heading-helper">3D</span></h2>
-            <ul class="catalog__list" >
-                <li class="catalog__list_item-defoult">1,5-спальний</li>
-                <li class="catalog__list_item">2-спальний</li>
-                <li class="catalog__list_item">Євростандарт</li>
-                <li class="catalog__list_item">Сімейний</li>
+            <ul class="catalog__list" id="listPhoto" >
+                <li class="catalog__list_item item-defoult"><a>1,5-спальний</a></li>
+                <li class="catalog__list_item"><a>2-спальний</a></li>
+                <li class="catalog__list_item"><a>Євростандарт</a></li>
+                <li class="catalog__list_item"><a>Сімейний</a></li>
+                <li class="catalog__list_item"><a>Плед</a></li>
             </ul>
             <ul class="catalog__list-description">
-                <li class="catalog__list-description_item"><img src="./img/евро/BR-004.jpg" width="50px" height="50px"><div><p class="list-description__item_title">Тип матеріалу:</p>
+                <li class="catalog__list-description_item"><i class="fa fa-solid fa-scissors"></i><div>
+                    <p class="list-description__item_title">Тип матеріалу:</p>
                     <p class="list-description_character">Полікоттон</p></div></li>
-                <li class="catalog__list-description_item"><img src="./img/евро/BR-004.jpg" width="50px" height="50px"><div><p class="list-description__item_title">У комплекті:</p>
+                <li class="catalog__list-description_item"><i class="fa fa-solid fa-clone"></i><div><p class="list-description__item_title">У комплекті:</p>
                     <p class="list-description_character">- простирадло: 150*215 см - 1 шт.</p>
                    <p class="list-description_character">- підковдра: 150*215 см - 1 шт.</p>
-                   <p class="list-description_character">- наволочка: 70 * 70 або 50 * 70 см</p>
-                   <p class="list-description_character">- 2 шт</p></div></li>
-                <li class="catalog__list-description_item"><img src="./img/евро/BR-004.jpg" width="50px" height="50px"><div><p class="list-description__item_title">Виробник:</p>
+                   <p class="list-description_character">- наволочка: 70 * 70 або 50 * 70 см - 2 шт</p>
+                   </div></li>
+                <li class="catalog__list-description_item"><i class="fa fa-solid fa-flask"></i><div><p class="list-description__item_title">Виробник:</p>
                     <p class="list-description_character">Україна</p></div></li>
             </ul>
         </section>
         </div>
         <div class="wrapper">
-        <section class="photo">
+        <section class="photo activePhoto">
             <div class="row">
-                <div class="column"><img src="./img/1.5/BR6093.jpg" >
+                <div class="column">
+                    <img src="./img/1.5/BR6093.jpg">
                     <div class="photo__description">
                         <h3>Престиж</h3>
-                        <p class="photo__description_material">Матеріал: Ранфорс</p>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
                     <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440 грн</span></p>
                     <button class="photo-btn">Замовити</button>
                     </div>
@@ -117,7 +88,7 @@
                 <div class="column"><img src="./img/1.5/BR7576.jpg">
                     <div class="photo__description">
                         <h3>Престиж</h3>
-                        <p class="photo__description_material">Матеріал: Ранфорс</p>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
                         <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
                                 грн</span></p>
                         <button class="photo-btn">Замовити</button>
@@ -126,7 +97,7 @@
                 <div class="column"><img src="./img/1.5/BR8054.jpg">
                     <div class="photo__description">
                         <h3>Престиж</h3>
-                        <p class="photo__description_material">Матеріал: Ранфорс</p>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
                         <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
                                 грн</span></p>
                         <button class="photo-btn">Замовити</button>
@@ -135,7 +106,7 @@
                 <div class="column"><img src="./img/1.5/BR8067.jpg">
                     <div class="photo__description">
                         <h3>Престиж</h3>
-                        <p class="photo__description_material">Матеріал: Ранфорс</p>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
                         <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
                                 грн</span></p>
                         <button class="photo-btn">Замовити</button>
@@ -146,7 +117,7 @@
             <div class="column"><img src="./img/1.5/BP-040.jpg">
                 <div class="photo__description">
                     <h3>Престиж</h3>
-                    <p class="photo__description_material">Матеріал: Ранфорс</p>
+                    <p class="photo__description_material">Матеріал: Полікоттон</p>
                     <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
                             грн</span></p>
                     <button class="photo-btn">Замовити</button>
@@ -155,7 +126,7 @@
             <div class="column"><img src="./img/1.5/BR-004.jpg">
                 <div class="photo__description">
                     <h3>Престиж</h3>
-                    <p class="photo__description_material">Матеріал: Ранфорс</p>
+                    <p class="photo__description_material">Матеріал: Полікоттон</p>
                     <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
                             грн</span></p>
                     <button class="photo-btn">Замовити</button>
@@ -164,7 +135,7 @@
             <div class="column"><img src="./img/1.5/BR-050.jpg">
                 <div class="photo__description">
                     <h3>Престиж</h3>
-                    <p class="photo__description_material">Матеріал: Ранфорс</p>
+                    <p class="photo__description_material">Матеріал: Полікоттон</p>
                     <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
                             грн</span></p>
                     <button class="photo-btn">Замовити</button>
@@ -173,7 +144,7 @@
             <div class="column"><img src="./img/1.5/BR-15375-1.jpg">
                 <div class="photo__description">
                     <h3>Престиж</h3>
-                    <p class="photo__description_material">Матеріал: Ранфорс</p>
+                    <p class="photo__description_material">Матеріал: Полікоттон</p>
                     <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
                             грн</span></p>
                     <button class="photo-btn">Замовити</button>
@@ -184,7 +155,7 @@
                     <div class="column"><img src="./img/1.5/BR-15375-2.jpg">
                         <div class="photo__description">
                             <h3>Престиж</h3>
-                            <p class="photo__description_material">Матеріал: Ранфорс</p>
+                            <p class="photo__description_material">Матеріал: Полікоттон</p>
                             <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
                                     грн</span></p>
                             <button class="photo-btn">Замовити</button>
@@ -193,7 +164,7 @@
                     <div class="column"><img src="./img/1.5/BR-280.jpg">
                         <div class="photo__description">
                             <h3>Престиж</h3>
-                            <p class="photo__description_material">Матеріал: Ранфорс</p>
+                            <p class="photo__description_material">Матеріал: Полікоттон</p>
                             <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
                                     грн</span></p>
                             <button class="photo-btn">Замовити</button>
@@ -202,7 +173,7 @@
                     <div class="column"><img src="./img/1.5/BR-6536.jpg">
                         <div class="photo__description">
                             <h3>Престиж</h3>
-                            <p class="photo__description_material">Матеріал: Ранфорс</p>
+                            <p class="photo__description_material">Матеріал: Полікоттон</p>
                             <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
                                     грн</span></p>
                             <button class="photo-btn">Замовити</button>
@@ -211,7 +182,7 @@
                     <div class="column"><img src="./img/1.5/BR-9468.jpg">
                         <div class="photo__description">
                             <h3>Престиж</h3>
-                            <p class="photo__description_material">Матеріал: Ранфорс</p>
+                            <p class="photo__description_material">Матеріал: Полікоттон</p>
                             <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
                                     грн</span></p>
                             <button class="photo-btn">Замовити</button>
@@ -222,7 +193,7 @@
                             <div class="column"><img src="./img/1.5/BR0139.jpg">
                                 <div class="photo__description">
                                     <h3>Престиж</h3>
-                                    <p class="photo__description_material">Матеріал: Ранфорс</p>
+                                    <p class="photo__description_material">Матеріал: Полікоттон</p>
                                     <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
                                             грн</span></p>
                                     <button class="photo-btn">Замовити</button>
@@ -231,7 +202,7 @@
                             <div class="column"><img src="./img/1.5/BR5126.jpg">
                                 <div class="photo__description">
                                     <h3>Престиж</h3>
-                                    <p class="photo__description_material">Матеріал: Ранфорс</p>
+                                    <p class="photo__description_material">Матеріал: Полікоттон</p>
                                     <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
                                             грн</span></p>
                                     <button class="photo-btn">Замовити</button>
@@ -240,7 +211,7 @@
                             <div class="column"><img src="./img/1.5/BR5400beige.jpg">
                                 <div class="photo__description">
                                     <h3>Престиж</h3>
-                                    <p class="photo__description_material">Матеріал: Ранфорс</p>
+                                    <p class="photo__description_material">Матеріал: Полікоттон</p>
                                     <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
                                             грн</span></p>
                                     <button class="photo-btn">Замовити</button>
@@ -249,7 +220,56 @@
                             <div class="column"><img src="./img/1.5/BR5400brown.jpg">
                                 <div class="photo__description">
                                     <h3>Престиж</h3>
-                                    <p class="photo__description_material">Матеріал: Ранфорс</p>
+                                    <p class="photo__description_material">Матеріал: Полікоттон</p>
+                                    <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                            грн</span></p>
+                                    <button class="photo-btn">Замовити</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column"><img src="./img/1.5/BR6093.jpg">
+                                <div class="photo__description">
+                                    <h3>Престиж</h3>
+                                    <p class="photo__description_material">Матеріал: Полікоттон</p>
+                                    <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                            грн</span></p>
+                                    <button class="photo-btn">Замовити</button>
+                                </div>
+                            </div>
+                            <div class="column"><img src="./img/1.5/BR7576.jpg">
+                                <div class="photo__description">
+                                    <h3>Престиж</h3>
+                                    <p class="photo__description_material">Матеріал: Полікоттон</p>
+                                    <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                            грн</span></p>
+                                    <button class="photo-btn">Замовити</button>
+                                </div>
+                            </div>
+                            <div class="column"><img src="./img/1.5/BR8054.jpg">
+                                <div class="photo__description">
+                                    <h3>Престиж</h3>
+                                    <p class="photo__description_material">Матеріал: Полікоттон</p>
+                                    <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                            грн</span></p>
+                                    <button class="photo-btn">Замовити</button>
+                                </div>
+                            </div>
+                            <div class="column"><img src="./img/1.5/BR8067.jpg">
+                                <div class="photo__description">
+                                    <h3>Престиж</h3>
+                                    <p class="photo__description_material">Матеріал: Полікоттон</p>
+                                    <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                            грн</span></p>
+                                    <button class="photo-btn">Замовити</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column"><img src="./img/1.5/BR8406.jpg">
+                                <div class="photo__description">
+                                    <h3>Престиж</h3>
+                                    <p class="photo__description_material">Матеріал: Полікоттон</p>
                                     <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
                                             грн</span></p>
                                     <button class="photo-btn">Замовити</button>
@@ -257,8 +277,270 @@
                             </div>
                         </div>
         </section>
+        <section class="photo">
+            <div class="row">
+                <div class="column">
+                    <img src="./img/2/BP-040.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+                <div class="column"><img src="./img/2/BR-004.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+                <div class="column"><img src="./img/2/BR-050.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+                <div class="column"><img src="./img/2/BR-15375-1.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column"><img src="./img/2/BR-15375-2.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+                <div class="column"><img src="./img/2/BR-280.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+                <div class="column"><img src="./img/2/BR-6536.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+                <div class="column"><img src="./img/2/BR-9468.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column"><img src="./img/2/BR0139.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+                <div class="column"><img src="./img/2/BR4417.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+                <div class="column"><img src="./img/2/BR5126.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+                <div class="column"><img src="./img/2/BR5400beige.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column"><img src="./img/2/BR5400brown.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+                <div class="column"><img src="./img/2/BR6093.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+                <div class="column"><img src="./img/2/BR7576.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+                <div class="column"><img src="./img/2/BR8054.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column"><img src="./img/2/BR8067.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+                <div class="column"><img src="./img/2/BR8406.jpg">
+                    <div class="photo__description">
+                        <h3>Престиж</h3>
+                        <p class="photo__description_material">Матеріал: Полікоттон</p>
+                        <p class="photo__description__cost"><span class="sale-cost">700 грн</span><span class="real-cost">1440
+                                грн</span></p>
+                        <button class="photo-btn">Замовити</button>
+                    </div>
+                </div>
+            </div>
+        </section>
         </div>
-        <section></section>
+        <div class="wrapper">
+        <section class="benefits">
+            <a name="benefits"></a>
+<h4 class="benefits__title"><span class="benefits__title_helper">Постільна білизна від Magon-style - це</span></h4>
+<ul class="benefits__list">
+<li class="benefits__list_item">
+    <div class="benefits__item_photo"><img src="./img/icon/star.png" width="90" height="90"></div>
+    <p class="benefits__item_title">Сертифікат якості продукції</p>
+    <p class="benefits__item_description">Наша продукція має сертифікати якості державного зразка</p>
+</li>
+<li class="benefits__list_item">
+    <div class="benefits__item_photo"><img src="./img/background.jpg" width="70" height="70"></div>
+    <p class="benefits__item_title">100% натуральні тканини та матеріали</p>
+    <p class="benefits__item_description">Ми виготовляємо постільну білизну зі 100% бавовняного матеріалу.</p>
+</li>
+<li class="benefits__list_item">
+    <div class="benefits__item_photo"><img src="./img/background.jpg" width="70" height="70"></div>
+    <p class="benefits__item_title">Стійке забарвлення тканин</p>
+    <p class="benefits__item_description">Навіть після великої кількості прання наша постільна білизна не вицвітає і не линяє</p>
+</li>
+<li class="benefits__list_item">
+    <div class="benefits__item_photo"><img src="./img/background.jpg" width="70" height="70"></div>
+    <p class="benefits__item_title">Кращі ціни від виробника</p>
+    <p class="benefits__item_description">Будучи виробниками, гарантуємо низькі ціни без різних накруток.</p>
+</li>
+<li class="benefits__list_item">
+    <div class="benefits__item_photo"><img src="./img/background.jpg" width="70" height="70"></div>
+    <p class="benefits__item_title">Швидка доставка по всій Україні</p>
+    <p class="benefits__item_description">Доставляємо у будь-який куточок України службою доставки Нова пошта</p>
+</li>
+<li class="benefits__list_item">
+    <div class="benefits__item_photo"><img src="./img/background.jpg" width="70" height="70"></div>
+    <p class="benefits__item_title">Оплата товара при получении</p>
+    <p class="benefits__item_description">Ви спочатку зможете перевірити товар, а після його сплатити</p>
+</li>    
+</ul>
+        </section>
+        </div>
+        <div class="wrapper">
+            <section class="information">
+                <a name="information"></a>
+<h4 class="information__title"><span class="information__title_helper">Як зробити замовлення</span></h4>
+<ul class="information__list">
+    <Li class="information__list_item">
+        <p class="information__item-number">01.</p>
+        <p class="information__item-description">Ви оформляєте замовлення на сайті та менеджер передзвонить для уточнення деталей</p>
+    </Li>
+    <Li class="information__list_item">
+        <p class="information__item-description">У цей же день ми комплектуємо та відправляємо ваше замовлення</p>
+        <p class="information__item-number">0.2</p>
+    </Li>
+    <Li class="information__list_item">
+        <p class="information__item-number">03.</p>
+        <p class="information__item-description">Ви отримуєте, перевіряєте та оплачуєте замовлення на Новій пошті</p>
+    </Li>
+</ul>
+            </section>
+        </div>
+        <div class="wrapper">
+            <section class="reviews">
+                <a name="reviews"></a>
+                <h4 class="reviews__title"><span class="reviews__title_helper">Відгуки наших клієнтів</span></h4>
+                <div class="reviews__text">
+                    <p class="reviews__text_description">Купую постільну білизну тут уже вдруге і не перестаю дивуватися, як швидко працюють співробітники цієї компанії, великий
+                    плюс їм. Товар хорошої якості та досить недорого, рекомендую потенційним покупцям, як відмінний магазин, гідний довіри.</p>
+                <div class="reviews__text_image"><img src="./img/Maga-Textile2.png">
+                    <p class="reviews__text_image-title">Татьяна</p>
+                </div>
+                </div>
+            </section>
+        </div>
+        <div class="wrapper">
+            <section class="discount">
+                <p class="discount__title">Встигни замовити постільну білизну зі знижкою 50%!</p>
+                <p class="discount__count_title">До кінця акції залишилося:</p>
+                <div id="app"></div>
+              <a class="discount__btn" href="#catalog">Дивитись каталог</a>
+            </section>
+        </div>
     </main>
+    <footer>
+        <div class="footer_text">
+            <i class="fa fa-solid fa-mobile footer-icon"></i>
+        <a class="footer__link-phone" href="tel:+380931993232">0931993232</a>
+            </div>
+    </footer>
 </body>
+<script type="module" src="./js/timer.js"></script>
+<script type="module" src="./js/photo.js"></script>
+<script type="module" src="./js/nav.js"></script>
 </html>

@@ -1,0 +1,38 @@
+footer {
+    background-color: #237b90;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer__link-phone {
+    color: rgba($color: white, $alpha: 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    align-self: center;
+}
+
+.footer-icon {
+    font-size: 35px;
+    color: #fff;
+    align-self: center;
+    margin-right: 10px;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 50%;
+    background-color: rgba($color: white, $alpha: 0.5);
+}
+.footer_text{
+    margin: 0 auto;
+    display: flex;
+    max-width: 200px;
+    justify-content: center;
+    &:hover .footer-icon{
+     color: #237b90;
+     background-color: #fff;
+    }
+    &:hover .footer__link-phone {
+        color: #fff;
+    }
+}
