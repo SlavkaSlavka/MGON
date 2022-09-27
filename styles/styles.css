@@ -741,7 +741,8 @@ h3 {
   position: relative;
   width: 300px;
   height: 300px;
-  left: 38%;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .base-timer__svg {
