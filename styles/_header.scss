@@ -1,29 +1,25 @@
-.bg-img {
+.header{
+    position: relative;
+}
+.header__bg-img {
     position: absolute;
     width: 100%;
     left: 0;
     top: 0;
-    max-height: 650PX;
-    width: 100%;
-    opacity: 1;
+    opacity: 0.5;
     z-index: -1;
+    max-height: 100%;
+    min-height: 100%;
 }
-.header-text{
-margin-top: 50px;
-}
-.www{
-    padding-top: 140px;
-}
+
 .main-heading {
     font-size: 52px;
-    margin: 0;
-   margin-bottom: 60px;
+    margin-bottom: 60px;
     line-height: 52px;
     font-weight: 700;
     color: rgb(35, 123, 144);
 }
 .main-heading_text {
-    white-space: nowrap;
     font-size: 24px;
     line-height: 24px;
     font-weight: 500;
@@ -35,9 +31,9 @@ margin-top: 50px;
     font-weight: 900;
     color: rgb(229, 95, 115);
 }
-.heading__btn {
+.header__btn {
     display: block;
-    max-width: 320px;
+    max-width: 300px;
     margin-right: auto;
     margin-top: 80px;
     width: 100%;
@@ -51,7 +47,6 @@ margin-top: 50px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    margin-bottom: 15px;
 
     &:hover {
         background: #e55f73;
@@ -63,13 +58,3 @@ margin-top: 50px;
     }
 }
 
-.mob {
-    display: flex;
-    align-items: center;
-        margin-right: -10px;
-        color: rgba(255, 255, 255, 0.7);
-        font-size: 24px;
-}
-.itemWithIcon:hover i{
-color: white;
-}

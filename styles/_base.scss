@@ -1,6 +1,14 @@
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+}
 body {
+    max-width: 1200px;
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+        width: 100%;
+        min-width: 100%;
 }
 a {
     text-decoration: none;
@@ -13,9 +21,11 @@ ul {
     padding: 0;
 }
 .wrapper {
-    margin-left: 15px;
-    margin-right: 15px;
-    padding-top: 75px  ;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+    width: 100%;
+    padding-bottom: 50px;
 }
  a:visited {
 color: black;
@@ -24,9 +34,7 @@ color: black;
     fill: white;
     margin-right: 10px;
  }
- body{
-    font-family: 'Montserrat', sans-serif;
- }
+
  p {margin: 0;
 padding: 0;
 }
@@ -36,4 +44,13 @@ padding: 0;
     border-radius: 50%;
     background-color: transparent;
     
+}
+section {
+    width: 100%;
+}
+main {
+    width: 100%;
+}
+h1, h2 , h3, h4 , h5 , h6 {
+    margin: 0;
 }
