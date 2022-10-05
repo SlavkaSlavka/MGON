@@ -29,7 +29,7 @@
     & img {
         max-height: 240px;
         max-width: 100%;
-        margin: 0;
+        margin: 0 auto;
     }
     &:hover{
         box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
@@ -75,6 +75,10 @@ h3 {
     align-items: baseline;
 }
 .photo-btn {
+    & a{
+        font-size: 20px;
+        color: #fff;
+    }
     width: 100%;
     background: #237b90;
     border-color: #237b90;
