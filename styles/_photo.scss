@@ -75,10 +75,10 @@ h3 {
     align-items: baseline;
 }
 .photo-btn {
-    & a{
-        font-size: 20px;
-        color: #fff;
-    }
+    font-family: inherit;
+    font-weight: 500;
+    display: block;
+    text-align: center;
     width: 100%;
     background: #237b90;
     border-color: #237b90;
@@ -92,5 +92,8 @@ h3 {
     cursor: pointer;
     &:hover{
         background: #0b4248;
+    }
+    &:visited {
+        color: #fff;
     }
 }
