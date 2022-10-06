@@ -40,20 +40,34 @@
   }
 }
 .reviews__text {
-  font-size: 20px;
+  min-width: 180px;
+  max-width: 180px;
   background-color: rgba($color: gray, $alpha: 0.1);
-  padding-bottom: 80px;
-  padding-top: 80px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   text-align: center;
-  padding-right: 80px;
-  padding-left: 80px;
+  padding-right: 10px;
+  padding-left: 10px;
   box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
-  &_description {
-    margin-bottom: 15px;
+  &_image-title{
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: 500;
   }
+    &_description {
+      padding-top: 5px;
+      font-size: 10px;
+    }
 }
 .reviews__text_image img {
-  max-width: 100px;
-  max-height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 70px;
+  max-height: 70px;
   border-radius: 50%;
+}
+.reviews__description {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
