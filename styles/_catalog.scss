@@ -87,6 +87,10 @@
     align-self: flex-start;
     padding-right: 15px;
   }
+
+  & .active {
+    display: block;
+  }
 }
 @media (min-width: 783px) and (max-width: 1199px) {
   .catalog__list-description {
@@ -118,5 +122,4 @@
   font-size: 14px;
 }
 .bed-shhets_150 {
-  display: block;
 }

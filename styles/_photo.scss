@@ -37,10 +37,14 @@
 }
 .photo{
     display: none;
+
+    &.active {
+        display: block;
+    }
 }
-.activePhoto {
-    display: block;
-}
+//.activePhoto {
+//    display: block;
+//}
 h3 {
     font-size: 22px;
         text-align: center;
