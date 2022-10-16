@@ -68,7 +68,6 @@ body {
 }
 
 header {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -1068,4 +1067,6 @@ footer {
 .modal-footer {
   margin-top: 0;
   padding-top: 0;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
