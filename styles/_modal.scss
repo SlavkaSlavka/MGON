@@ -69,9 +69,12 @@
         justify-content: flex-start;
         padding-bottom: 20px;
     & p {
-        max-width: 120px;
-        min-width: 120px;
+        max-width: 200px;
+        min-width: 200px;
         padding-right: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
     }
     }
     .modal input {
@@ -83,11 +86,65 @@
                 padding: 12px 25px;
                 border-radius: 50px;
                 margin-bottom: 25px;
-    }
+                min-width: 100%;
+                max-width: 100%;
+    
+            }
     .modal__btn{
         margin: 0;
     }
 .modal__cost_description {
     color: red;
     font-weight: bold;
+}
+
+
+.btn-primary {
+    font-family: inherit;
+        font-weight: 500;
+        display: block;
+        text-align: center;
+        width: 80%;
+        background-color: #237b90;
+        border-color: #237b90;
+        border-radius: 50px;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #fff;
+        margin-top: 20px;
+        cursor: pointer;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    
+        &:hover {
+            background-color: #0b4248;
+        }
+    
+        &:visited {
+            color: #fff;
+            background-color: #237b90;
+                border-color: #237b90;
+        }
+                &:focus {
+                    color: #fff;
+                    background-color: #237b90;
+                    border-color: #237b90;
+                }
+        
+}
+.input-modal {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    margin-top: 30px;
+}
+.modal-body{
+padding-bottom: 0;
+}
+.modal-footer {
+    margin-top: 0;
+padding-top: 0;
 }

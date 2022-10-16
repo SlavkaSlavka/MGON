@@ -26,7 +26,7 @@ footer {
 .footer_text{
     margin: 0 auto;
     display: flex;
-    max-width: 200px;
+    max-width: 250px;
     justify-content: center;
     &:hover .footer-icon{
      color: #237b90;
@@ -35,4 +35,7 @@ footer {
     &:hover .footer__link-phone {
         color: #fff;
     }
+}
+footer {
+    margin-top: 15px;
 }

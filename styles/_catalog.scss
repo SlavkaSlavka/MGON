@@ -43,6 +43,13 @@
   padding-right: 10px;
   padding-left: 10px;
   padding-top: 20px;
+  a {
+    color:#237b90 ;
+    text-decoration: none;
+    &:hover{
+    text-decoration: none;
+    }
+  }
 }
 .catalog__list-description {
   display: flex;
@@ -57,7 +64,7 @@
   padding-right: 50px;
   margin-top: 50px;
 }
-.item-defoult {
+.active {
   border-bottom: 2px solid #237b90;
 }
 
