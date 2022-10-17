@@ -68,6 +68,7 @@ body {
 }
 
 header {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -1069,4 +1070,8 @@ footer {
   padding-top: 0;
 }
 
-/*# sourceMappingURL=styles.css.map */
+@media (max-width: 600px) {
+  .modal__wrapper p {
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=styles.css.map */

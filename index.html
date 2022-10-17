@@ -11,10 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
           rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
-<link rel="stylesheet" type="text/css" href="styles/styles.css">
-<body>
 
+<body>
 <div class="modal fade" id="modal_form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -23,7 +23,7 @@
             </div>
             <div class="modal-body">
                 <div class="modal__logo_wrapper">
-                    <img src="./img/Maga-Textile2.png" width="130" height="110" class="modal__logo">
+                    <img src="./img/Maga-Textile2.png" width="130" height="110" class="modal__logo" alt="Logo">
                 </div>
                 <div class="modal__wrapper">
                     <p class="modal__name">Модель:</p>
@@ -59,14 +59,13 @@
                         <span class="bar"></span>
                     </div>
                 </div>
-                <a href="#" class="logo" id="logo"><img style="border-radius: 50%;" src="./img/Maga-Textile2.png"
-                                                        width="90" height="90"></a>
+                <a href="#" class="logo" id="logo"><img style="border-radius: 50%;" src="./img/Maga-Textile2.png" alt="logo" width="90" height="90"></a>
                 <ul class="menu" id="menu">
                     <li><a href="#catalog">Каталог</a></li>
                     <li><a href="#benefits">Преваги</a></li>
                     <li><a href="#reviews">Відгуки</a></li>
                     <li><a href="#information">Як замовити</a></li>
-                    <li class="itemWithIcon"><i class="fa fa-solid fa-mobile mob"></i><a href="tel: +380732058280">073-205-82-80</a>
+                    <li class="itemWithIcon"><i class="fa fa-solid fa-mobile mob"></i><a href="tel:0732058280">073-205-82-80</a>
                     </li>
                 </ul>
             </div>
@@ -76,7 +75,7 @@
 </header>
 <main>
     <section class="header">
-        <img class="header__bg-img" src="./img/ФОТО ДЛЯ ФОНА  или обложки/close-up-of-gray-blanket-on-the-bed.jpg"
+        <img class="header__bg-img" src="./img/photoBG/close-up-of-gray-blanket-on-the-bed.jpg"
              alt="bed with linen">
         <div class="wrapper">
             <h1 class="main-heading">Постільна білизна 3D</h1>
@@ -103,14 +102,14 @@
             </ul>
             <ul class="catalog__list-description">
                 <li class="catalog__list-description_item">
-                    <img src="./img/typr.jpg" width="60" height="60">
+                    <img alt="hend with cloth" src="./img/typr.jpg" width="60" height="60">
                     <div>
                         <p class="list-description__item_title">Тип матеріалу:</p>
                         <p class="list-description_character">Полікоттон</p>
                     </div>
                 </li>
                 <li class="catalog__list-description_item catalog-set">
-                    <img src="./img/copml.jpg" width="60" height="60">
+                    <img alt="bad" src="./img/copml.jpg" width="60" height="60">
                     <div class="catalog__list-description_wrapper bed-shhets_150 active"
                          data-additional-tab="#shhets_150">
                         <p class="list-description__item_title">У комплекті:</p>
@@ -148,7 +147,7 @@
                         <p class="list-description_character">- плед: 200*215 см - 1 шт.</p>
                     </div>
                 </li>
-                <li class="catalog__list-description_item"><img src="./img/flaf.jpg" width="60" height="60">
+                <li class="catalog__list-description_item"><img alt="flag Ukraine" src="./img/flaf.jpg" width="60" height="60">
                     <div><p class="list-description__item_title">Виробник:</p>
                         <p class="list-description_character">Україна</p></div>
                 </li>
@@ -159,7 +158,7 @@
         <div class="wrapper">
             <div class="row">
                 <div data-price="560 грн" data-name="Тигр" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BP-040-Тигры.jpg">
+                    <img alt="photo product" src="./img/1.5/BP-040-Тигры.jpg">
                     <div class="photo__description">
                         <h3>Тигр</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -169,7 +168,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Маскарад" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-004-Маскорат.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-004-Маскорат.jpg">
                     <div class="photo__description">
                         <h3>Маскарад</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -179,7 +178,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Фієста" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-029 Фиеста.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-029Фиеста.jpg">
                     <div class="photo__description">
                         <h3>Фієста</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -189,7 +188,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Ромашки у саду" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-050-Ромашки в саду.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-050-Ромашки в саду.jpg">
                     <div class="photo__description">
                         <h3>Ромашки у саду</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -199,7 +198,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Світлий" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-15375-1-Светлый.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-15375-1-Светлый.jpg">
                     <div class="photo__description">
                         <h3>Світлий</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -209,7 +208,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Сірий" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-15375-2- Серый.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-15375-2- Серый.jpg">
                     <div class="photo__description">
                         <h3>Сірий</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -219,7 +218,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Смуга" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-1573 Полоса.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-1573 Полоса.jpg">
                     <div class="photo__description">
                         <h3>Смуга</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -229,7 +228,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Зірковий" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-1978  звездочик.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-1978  звездочик.jpg">
                     <div class="photo__description">
                         <h3>Зірковий</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -239,7 +238,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Небесний" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-2088   небесный.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-2088   небесный.jpg">
                     <div class="photo__description">
                         <h3>Небесний</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -249,7 +248,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Ромашки в полі" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-280-Ромашки в поле.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-280-Ромашки в поле.jpg">
                     <div class="photo__description">
                         <h3>Ромашки в полі</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -259,7 +258,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Париж" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-3322  Париж.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-3322  Париж.jpg">
                     <div class="photo__description">
                         <h3>Пaриж</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -269,7 +268,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Рим" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-4109 Рим.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-4109 Рим.jpg">
                     <div class="photo__description">
                         <h3>Рим</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -279,7 +278,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Венеція" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-4112 Венеция.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-4112 Венеция.jpg">
                     <div class="photo__description">
                         <h3>Венеція</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -289,7 +288,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Оранжерея" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-4115 Оранжерея.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-4115 Оранжерея.jpg">
                     <div class="photo__description">
                         <h3>Оранжерея</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -299,7 +298,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Оксамитова троянда" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-6536-Бархатная роза.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-6536-Бархатная роза.jpg">
                     <div class="photo__description">
                         <h3>Оксамитова троянда</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -309,7 +308,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Свіжість" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-6759 Свежесть.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-6759 Свежесть.jpg">
                     <div class="photo__description">
                         <h3>Свіжість</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -319,7 +318,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Вернісаж" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-7033Вернесаж.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-7033Вернесаж.jpg">
                     <div class="photo__description">
                         <h3>Вернісаж</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -329,7 +328,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Перлина" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-7036 Жемчужина.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-7036 Жемчужина.jpg">
                     <div class="photo__description">
                         <h3>Перлина</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -339,7 +338,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Амелія" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-7039 Амелия.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-7039 Амелия.jpg">
                     <div class="photo__description">
                         <h3>Амелія</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -349,7 +348,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Ритм" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-73358  Ритм.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-73358  Ритм.jpg">
                     <div class="photo__description">
                         <h3>Ритм</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -360,7 +359,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Кульбаба" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR-9468-Одуванчики.jpg">
+                    <img alt="photo product" src="./img/1.5/BR-9468-Одуванчики.jpg">
                     <div class="photo__description">
                         <h3>Кульбаба</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -371,7 +370,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Осінь" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR0139-Осень.jpg">
+                    <img alt="photo product" src="./img/1.5/BR0139-Осень.jpg">
                     <div class="photo__description">
                         <h3>Осінь</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -382,7 +381,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Листва" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR5126-Листва.jpg">
+                    <img alt="photo product" src="./img/1.5/BR5126-Листва.jpg">
                     <div class="photo__description">
                         <h3>Листва</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -393,7 +392,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Бежевий вензіль" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR5400beige-Вензель бежевый.jpg">
+                    <img alt="photo product" src="./img/1.5/BR5400beige-Вензель бежевый.jpg">
                     <div class="photo__description">
                         <h3>Бежевий вензіль</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -404,7 +403,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Коричневий вензіль" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR5400brown-Коричневый вензель.jpg">
+                    <img alt="photo product" src="./img/1.5/BR5400brown-Коричневый вензель.jpg">
                     <div class="photo__description">
                         <h3>Коричневий вензіль</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -415,7 +414,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Осіння листва" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR6093-Осенняя листва.jpg">
+                    <img alt="photo product" src="./img/1.5/BR6093-Осенняя листва.jpg">
                     <div class="photo__description">
                         <h3>Осіння листва</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -426,7 +425,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Котики" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR7576-Котики.jpg">
+                    <img alt="photo product" src="./img/1.5/BR7576-Котики.jpg">
                     <div class="photo__description">
                         <h3>Котики</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -437,7 +436,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Червоні троянди" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR8054 -Красные розы.jpg">
+                    <img alt="photo product" src="./img/1.5/BR8054 -Красные розы.jpg">
                     <div class="photo__description">
                         <h3>Червоні троянди</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -448,7 +447,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Королівський" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR8067-королевский.jpg">
+                    <img alt="photo product" src="./img/1.5/BR8067-королевский.jpg">
                     <div class="photo__description">
                         <h3>Королівський</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -459,7 +458,7 @@
                     </div>
                 </div>
                 <div data-price="560 грн" data-name="Бьянка" data-set="1,5-спальний" class="column">
-                    <img src="./img/1.5/BR8406-Бьянка.jpg">
+                    <img alt="photo product" src="./img/1.5/BR8406-Бьянка.jpg">
                     <div class="photo__description">
                         <h3>Бьянка</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -476,7 +475,7 @@
         <div class="wrapper">
             <div class="row">
                 <div data-price="659 грн" data-name="Тигр" data-set="2-спальний" class="column">
-                    <img src="./img/2/BP-040 Тигры.jpg">
+                    <img alt="photo product" src="./img/2/BP-040 Тигры.jpg">
                     <div class="photo__description">
                         <h3>Тигр</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -486,7 +485,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Маскарад" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-004 Маскорат.jpg">
+                    <img alt="photo product" src="./img/2/BR-004 Маскорат.jpg">
                     <div class="photo__description">
                         <h3>Маскарад</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -497,7 +496,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Фієста" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-029 Фиеста.jpg">
+                    <img alt="photo product" src="./img/2/BR-029 Фиеста.jpg">
                     <div class="photo__description">
                         <h3>Фіеста</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -508,7 +507,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Ромашки у саду" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-050 Ромашки в саду.jpg">
+                    <img alt="photo product" src="./img/2/BR-050 Ромашки в саду.jpg">
                     <div class="photo__description">
                         <h3>Ромашки у саду</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -519,7 +518,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Світлий" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-15375-1-Светлый.jpg">
+                    <img alt="photo product" src="./img/2/BR-15375-1-Светлый.jpg">
                     <div class="photo__description">
                         <h3>Світлий</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -530,7 +529,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Сірий" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-15375-2  Серый.jpg">
+                    <img alt="photo product" src="./img/2/BR-15375-2  Серый.jpg">
                     <div class="photo__description">
                         <h3>Сірий</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -541,7 +540,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Смуга" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-1573 Полоса.jpg">
+                    <img alt="photo product" src="./img/2/BR-1573 Полоса.jpg">
                     <div class="photo__description">
                         <h3>Смуга</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -552,7 +551,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Зірковий" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-1978  звездочик.jpg">
+                    <img alt="photo product" src="./img/2/BR-1978  звездочик.jpg">
                     <div class="photo__description">
                         <h3>Зірковий</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -563,7 +562,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Небесний" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-2088   небесный.jpg">
+                    <img alt="photo product" src="./img/2/BR-2088   небесный.jpg">
                     <div class="photo__description">
                         <h3>Небесний</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -574,7 +573,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Ромашки в полі" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-280-Ромашки в поле.jpg">
+                    <img alt="photo product" src="./img/2/BR-280-Ромашки в поле.jpg">
                     <div class="photo__description">
                         <h3>Ромашки в полі</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -585,7 +584,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Париж" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-3322  Париж.jpg">
+                    <img alt="photo product" src="./img/2/BR-3322  Париж.jpg">
                     <div class="photo__description">
                         <h3>Париж</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -596,7 +595,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Рим" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-4109 Рим.jpg">
+                    <img alt="photo product" src="./img/2/BR-4109 Рим.jpg">
                     <div class="photo__description">
                         <h3>Рим</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -607,7 +606,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Венеція" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-4112 Венеция.jpg">
+                    <img alt="photo product" src="./img/2/BR-4112 Венеция.jpg">
                     <div class="photo__description">
                         <h3>Венеція</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -618,7 +617,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Оранжерея" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-4115 Оранжерея.jpg">
+                    <img alt="photo product" src="./img/2/BR-4115 Оранжерея.jpg">
                     <div class="photo__description">
                         <h3>Оранжерея</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -629,7 +628,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Оксамитова троянда" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-6536-Бархатная роза.jpg">
+                    <img alt="photo product" src="./img/2/BR-6536-Бархатная роза.jpg">
                     <div class="photo__description">
                         <h3>Оксамитова троянда</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -640,7 +639,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Свіжість" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-6759 Свежесть.jpg">
+                    <img alt="photo product" src="./img/2/BR-6759 Свежесть.jpg">
                     <div class="photo__description">
                         <h3>Свіжість</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -651,7 +650,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Вернісаж" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-7033Вернесаж.jpg">
+                    <img alt="photo product" src="./img/2/BR-7033Вернесаж.jpg">
                     <div class="photo__description">
                         <h3>Вернісаж</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -662,7 +661,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Перлина" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-7036 Жемчужина.jpg">
+                    <img alt="photo product" src="./img/2/BR-7036 Жемчужина.jpg">
                     <div class="photo__description">
                         <h3>Перлина</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -673,7 +672,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Амелія" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-7039 Амелия.jpg">
+                    <img alt="photo product" src="./img/2/BR-7039 Амелия.jpg">
                     <div class="photo__description">
                         <h3>Амелія</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -684,7 +683,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Ритм" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-73358  Ритм.jpg">
+                    <img alt="photo product" src="./img/2/BR-73358  Ритм.jpg">
                     <div class="photo__description">
                         <h3>Ритм</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -695,7 +694,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Кульбаба" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR-9468-Одуванчики.jpg">
+                    <img alt="photo product" src="./img/2/BR-9468-Одуванчики.jpg">
                     <div class="photo__description">
                         <h3>Кульбаба</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -706,7 +705,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Осінь" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR0139 Осень.jpg">
+                    <img alt="photo product" src="./img/2/BR0139 Осень.jpg">
                     <div class="photo__description">
                         <h3>Осінь</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -717,7 +716,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Малахіт" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR4417 Махалит.jpg">
+                    <img alt="photo product" src="./img/2/BR4417 Махалит.jpg">
                     <div class="photo__description">
                         <h3>Малахіт</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -728,7 +727,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Листва" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR5126 Листрва.jpg">
+                    <img alt="photo product" src="./img/2/BR5126 Листрва.jpg">
                     <div class="photo__description">
                         <h3>Листва</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -739,7 +738,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Бежевий вензіль" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR5400beige-Вензель бежевый.jpg">
+                    <img alt="photo product" src="./img/2/BR5400beige-Вензель бежевый.jpg">
                     <div class="photo__description">
                         <h3>Бежевий вензіль</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -750,7 +749,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Коричневий вензіль" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR5400brown-Коричневый вензель.jpg">
+                    <img alt="photo product" src="./img/2/BR5400brown-Коричневый вензель.jpg">
                     <div class="photo__description">
                         <h3>Коричневий вензіль</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -761,7 +760,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Осіння листва" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR6093 Осенняя листва.jpg">
+                    <img alt="photo product" src="./img/2/BR6093 Осенняя листва.jpg">
                     <div class="photo__description">
                         <h3>Осіння листва</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -772,7 +771,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Котики" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR7576-Котики.jpg">
+                    <img alt="photo product" src="./img/2/BR7576-Котики.jpg">
                     <div class="photo__description">
                         <h3>Котики</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -783,7 +782,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Червоні троянди" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR8054 -Красные розы.jpg">
+                    <img alt="photo product" src="./img/2/BR8054 -Красные розы.jpg">
                     <div class="photo__description">
                         <h3>Червоні троянди</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -794,7 +793,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Королівський" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR8067-королевский.jpg">
+                    <img alt="photo product" src="./img/2/BR8067-королевский.jpg">
                     <div class="photo__description">
                         <h3>Королівський</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -805,7 +804,7 @@
                     </div>
                 </div>
                 <div data-price="659 грн" data-name="Бьянка" data-set="2-спальний" class="column">
-                    <img src="./img/2/BR8406-Бьянка.jpg">
+                    <img alt="photo product" src="./img/2/BR8406-Бьянка.jpg">
                     <div class="photo__description">
                         <h3>Бьянка</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -822,7 +821,7 @@
         <div class="wrapper">
             <div class="row">
                 <div data-price="719 грн" data-name="Тигр" data-set="Евро" class="column">
-                    <img src="./img/евро/BP-040-Тигры.jpg">
+                    <img alt="photo product" src="./img/евро/BP-040-Тигры.jpg">
                     <div class="photo__description">
                         <h3>Тигр</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -832,7 +831,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Маскарад" data-set="Евро"  class="column">
-                    <img src="./img/евро/BR-004-Маскорат.jpg">
+                    <img alt="photo product" src="./img/евро/BR-004-Маскорат.jpg">
                     <div class="photo__description">
                         <h3>Маскарад</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -843,7 +842,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Фіеста" data-set="Евро"  class="column">
-                    <img src="./img/евро/BR-029 Фиеста.jpg">
+                    <img alt="photo product" src="./img/евро/BR-029 Фиеста.jpg">
                     <div class="photo__description">
                         <h3>Фіеста</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -854,7 +853,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Ромашки у саду" data-set="Евро"  class="column">
-                    <img src="./img/евро/BR-050-Ромашки в саду.jpg">
+                    <img alt="photo product" src="./img/евро/BR-050-Ромашки в саду.jpg">
                     <div class="photo__description">
                         <h3>Ромашки у саду</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -865,7 +864,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Світлий" data-set="Евро"  class="column">
-                    <img src="./img/евро/BR-15375-1-Светлый.jpg">
+                    <img alt="photo product" src="./img/евро/BR-15375-1-Светлый.jpg">
                     <div class="photo__description">
                         <h3>Світлий</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -876,7 +875,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Сірий" data-set="Евро"  class="column">
-                    <img src="./img/евро/BR-15375-2- Серый.jpg">
+                    <img alt="photo product" src="./img/евро/BR-15375-2- Серый.jpg">
                     <div class="photo__description">
                         <h3>Сірий</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -887,7 +886,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Смуга" data-set="Евро"  class="column">
-                    <img src="./img/евро/BR-1573 Полоса.jpg">
+                    <img alt="photo product" src="./img/евро/BR-1573 Полоса.jpg">
                     <div class="photo__description">
                         <h3>Смуга</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -898,7 +897,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Зірковий" data-set="Евро"  class="column">
-                    <img src="./img/евро/BR-1978  звездочик.jpg">
+                    <img alt="photo product" src="./img/евро/BR-1978  звездочик.jpg">
                     <div class="photo__description">
                         <h3>Зірковий</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -909,7 +908,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Небесний" data-set="Евро"  class="column">
-                    <img src="./img/евро/BR-2088   небесный.jpg">
+                    <img alt="photo product" src="./img/евро/BR-2088   небесный.jpg">
                     <div class="photo__description">
                         <h3>Небесний</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -920,7 +919,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Ромашки в полі" data-set="Евро"  class="column">
-                    <img src="./img/евро/BR-280-Ромашки в поле.jpg">
+                    <img alt="photo product" src="./img/евро/BR-280-Ромашки в поле.jpg">
                     <div class="photo__description">
                         <h3>Ромашки в полі</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -931,7 +930,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Париж" data-set="Евро" class="column">
-                    <img src="./img/евро/BR-3322  Париж.jpg">
+                    <img alt="photo product" src="./img/евро/BR-3322  Париж.jpg">
                     <div class="photo__description">
                         <h3>Париж</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -942,7 +941,7 @@
                     </div>
                 </div>Венеція
                 <div data-price="719 грн" data-name="" data-set="Евро" class="column">
-                    <img src="./img/евро/BR-4112 Венеция.jpg">
+                    <img alt="photo product" src="./img/евро/BR-4112 Венеция.jpg">
                     <div class="photo__description">
                         <h3>Венеція</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -953,7 +952,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Рим" data-set="Евро" class="column">
-                    <img src="./img/евро/BR-4109 Рим.jpg">
+                    <img alt="photo product" src="./img/евро/BR-4109 Рим.jpg">
                     <div class="photo__description">
                         <h3>Рим</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -964,7 +963,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Оранжерея" data-set="Евро" class="column">
-                    <img src="./img/евро/BR-4115 Оранжерея.jpg">
+                    <img alt="photo product" src="./img/евро/BR-4115 Оранжерея.jpg">
                     <div class="photo__description">
                         <h3>Оранжерея</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -975,7 +974,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Оксамитова троянда" data-set="Евро" class="column">
-                    <img src="./img/евро/BR-6536-Бархатная роза.jpg">
+                    <img alt="photo product" src="./img/евро/BR-6536-Бархатная роза.jpg">
                     <div class="photo__description">
                         <h3>Оксамитова троянда</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -986,7 +985,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Свіжість" data-set="Евро" class="column">
-                    <img src="./img/евро/BR-6759 Свежесть.jpg">
+                    <img alt="photo product" src="./img/евро/BR-6759 Свежесть.jpg">
                     <div class="photo__description">
                         <h3>Свіжість</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -997,7 +996,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Вернісаж" data-set="Евро" class="column">
-                    <img src="./img/евро/BR-7033Вернесаж.jpg">
+                    <img alt="photo product" src="./img/евро/BR-7033Вернесаж.jpg">
                     <div class="photo__description">
                         <h3>Вернісаж</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1008,7 +1007,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Перлина" data-set="Евро" class="column">
-                    <img src="./img/евро/BR-7036 Жемчужина.jpg">
+                    <img alt="photo product" src="./img/евро/BR-7036 Жемчужина.jpg">
                     <div class="photo__description">
                         <h3>Перлина</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1019,7 +1018,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Амелія" data-set="Евро" class="column">
-                    <img src="./img/евро/BR-7039 Амелия.jpg">
+                    <img alt="photo product" src="./img/евро/BR-7039 Амелия.jpg">
                     <div class="photo__description">
                         <h3>Амелія</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1030,7 +1029,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Ритм" data-set="Евро" class="column">
-                    <img src="./img/евро/BR-73358  Ритм.jpg">
+                    <img alt="photo product" src="./img/евро/BR-73358  Ритм.jpg">
                     <div class="photo__description">
                         <h3>Ритм</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1041,7 +1040,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Кульбаби" data-set="Евро" class="column">
-                    <img src="./img/евро/BR-9468-Одуванчики.jpg">
+                    <img alt="photo product" src="./img/евро/BR-9468-Одуванчики.jpg">
                     <div class="photo__description">
                         <h3>Кульбаби</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1052,7 +1051,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Осінь" data-set="Евро" class="column">
-                    <img src="./img/евро/BR0139-Осень.jpg">
+                    <img alt="photo product" src="./img/евро/BR0139-Осень.jpg">
                     <div class="photo__description">
                         <h3>Осінь</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1063,7 +1062,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Листва" data-set="Евро" class="column">
-                    <img src="./img/евро/BR5126-Листва.jpg">
+                    <img alt="photo product" src="./img/евро/BR5126-Листва.jpg">
                     <div class="photo__description">
                         <h3>Листва</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1074,7 +1073,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Бежевий вензіль" data-set="Евро" class="column">
-                    <img src="./img/евро/BR5400beige-Вензель бежевый.jpg">
+                    <img alt="photo product" src="./img/евро/BR5400beige-Вензель бежевый.jpg">
                     <div class="photo__description">
                         <h3>Бежевий вензіль</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1085,7 +1084,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Коричневий вензіль" data-set="Евро" class="column">
-                    <img src="./img/евро/BR5400brown-Коричневый вензель.jpg">
+                    <img alt="photo product" src="./img/евро/BR5400brown-Коричневый вензель.jpg">
                     <div class="photo__description">
                         <h3>Коричневий вензіль</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1096,7 +1095,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Осіння листва" data-set="Евро" class="column">
-                    <img src="./img/евро/BR6093-Осенняя листва.jpg">
+                    <img alt="photo product" src="./img/евро/BR6093-Осенняя листва.jpg">
                     <div class="photo__description">
                         <h3>Осіння листва</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1107,7 +1106,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Котики" data-set="Евро" class="column">
-                    <img src="./img/евро/BR7576-Котики.jpg">
+                    <img alt="photo product" src="./img/евро/BR7576-Котики.jpg">
                     <div class="photo__description">
                         <h3>Котики</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1118,7 +1117,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Червоні троянди" data-set="Евро" class="column">
-                    <img src="./img/евро/BR8054 -Красные розы.jpg">
+                    <img alt="photo product" src="./img/евро/BR8054 -Красные розы.jpg">
                     <div class="photo__description">
                         <h3>Червоні троянди</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1129,7 +1128,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Королівський" data-set="Евро" class="column">
-                    <img src="./img/евро/BR8067-королевский.jpg">
+                    <img alt="photo product" src="./img/евро/BR8067-королевский.jpg">
                     <div class="photo__description">
                         <h3>Королівський</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1140,7 +1139,7 @@
                     </div>
                 </div>
                 <div data-price="719 грн" data-name="Бьянка" data-set="Евро" class="column">
-                    <img src="./img/евро/BR8406-Бьянка.jpg">
+                    <img alt="photo product" src="./img/евро/BR8406-Бьянка.jpg">
                     <div class="photo__description">
                         <h3>Бьянка</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1158,7 +1157,7 @@
         <div class="wrapper">
             <div class="row">
                 <div data-price="829 грн" data-name="Тигр" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BP-040-Тигры.jpg">
+                    <img alt="photo product" src="./img/семейное/BP-040-Тигры.jpg">
                     <div class="photo__description">
                         <h3>Тигр</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1168,7 +1167,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Маскарад" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-004-Маскорат.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-004-Маскорат.jpg">
                     <div class="photo__description">
                         <h3>Маскарад</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1179,7 +1178,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Фіеста" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-029 Фиеста.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-029 Фиеста.jpg">
                     <div class="photo__description">
                         <h3>Фієста</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1190,7 +1189,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Ромашки у саду" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-050-Ромашки в саду.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-050-Ромашки в саду.jpg">
                     <div class="photo__description">
                         <h3>Ромашки у саду</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1201,7 +1200,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Світлий" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-15375-1-Светлый.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-15375-1-Светлый.jpg">
                     <div class="photo__description">
                         <h3>Світлий</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1212,7 +1211,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Сірий" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-15375-2- Серый.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-15375-2- Серый.jpg">
                     <div class="photo__description">
                         <h3>Сірий</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1223,7 +1222,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Смуга" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-1573 Полоса.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-1573 Полоса.jpg">
                     <div class="photo__description">
                         <h3>Смуга</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1234,7 +1233,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Зірковий" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-1978  звездочик.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-1978  звездочик.jpg">
                     <div class="photo__description">
                         <h3>Зірковий</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1245,7 +1244,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Небесний" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-2088   небесный.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-2088   небесный.jpg">
                     <div class="photo__description">
                         <h3>Небесний</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1256,7 +1255,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Ромашки в полі" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-280-Ромашки в поле.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-280-Ромашки в поле.jpg">
                     <div class="photo__description">
                         <h3>Ромашки в полі</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1267,7 +1266,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Париж" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-3322  Париж.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-3322  Париж.jpg">
                     <div class="photo__description">
                         <h3>Париж</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1278,7 +1277,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Рим" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-4109 Рим.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-4109 Рим.jpg">
                     <div class="photo__description">
                         <h3>Рим</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1289,7 +1288,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Венеція" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-4112 Венеция.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-4112 Венеция.jpg">
                     <div class="photo__description">
                         <h3>Венеція</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1300,7 +1299,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Оранжерея" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-4115 Оранжерея.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-4115 Оранжерея.jpg">
                     <div class="photo__description">
                         <h3>Оранжерея</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1311,7 +1310,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Оксамитова троянда" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-6536-Бархатная роза.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-6536-Бархатная роза.jpg">
                     <div class="photo__description">
                         <h3>Оксамитова троянда</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1322,7 +1321,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Свіжість" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-6759 Свежесть.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-6759 Свежесть.jpg">
                     <div class="photo__description">
                         <h3>Свіжість</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1333,7 +1332,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Вернісаж" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-7033Вернесаж.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-7033Вернесаж.jpg">
                     <div class="photo__description">
                         <h3>Вернісаж</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1344,7 +1343,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Перлина" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-7036 Жемчужина.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-7036 Жемчужина.jpg">
                     <div class="photo__description">
                         <h3>Перлина</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1355,7 +1354,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Амелія" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-7039 Амелия.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-7039 Амелия.jpg">
                     <div class="photo__description">
                         <h3>Амелія</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1366,7 +1365,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Ритм" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-73358  Ритм.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-73358  Ритм.jpg">
                     <div class="photo__description">
                         <h3>Ритм</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1377,7 +1376,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Кульбаби" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR-9468-Одуванчики.jpg">
+                    <img alt="photo product" src="./img/семейное/BR-9468-Одуванчики.jpg">
                     <div class="photo__description">
                         <h3>Кульбаби</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1388,7 +1387,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Листва" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR5126-Листва.jpg">
+                    <img alt="photo product" src="./img/семейное/BR5126-Листва.jpg">
                     <div class="photo__description">
                         <h3>Листва</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1399,7 +1398,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Бежевий вензіль" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR5400beige-Вензель бежевый.jpg">
+                    <img alt="photo product" src="./img/семейное/BR5400beige-Вензель бежевый.jpg">
                     <div class="photo__description">
                         <h3>Бежевий вензіль</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1410,7 +1409,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Коричневий вензіль" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR5400brown-Коричневый вензель.jpg">
+                    <img alt="photo product" src="./img/семейное/BR5400brown-Коричневый вензель.jpg">
                     <div class="photo__description">
                         <h3>Коричневий вензіль</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1421,7 +1420,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Осіння листва" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR6093-Осенняя листва.jpg">
+                    <img alt="photo product" src="./img/семейное/BR6093-Осенняя листва.jpg">
                     <div class="photo__description">
                         <h3>Осіння листва</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1432,7 +1431,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Котики" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR7576-Котики.jpg">
+                    <img alt="photo product" src="./img/семейное/BR7576-Котики.jpg">
                     <div class="photo__description">
                         <h3>Котики</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1443,7 +1442,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Червоні троянди" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR8054 -Красные розы.jpg">
+                    <img alt="photo product" src="./img/семейное/BR8054 -Красные розы.jpg">
                     <div class="photo__description">
                         <h3>Червоні троянди</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1454,7 +1453,7 @@
                     </div>
                 </div>
                 <div data-price="829 грн" data-name="Бьянка" data-set="Сімейний" class="column">
-                    <img src="./img/семейное/BR8406-Бьянка.jpg">
+                    <img alt="photo product" src="./img/семейное/BR8406-Бьянка.jpg">
                     <div class="photo__description">
                         <h3>Бьянка</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1472,7 +1471,7 @@
         <div class="wrapper">
             <div class="row">
                 <div data-price="692 грн" data-name="Сніговик" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/ALM-065 Снеговик.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM-065 Снеговик.jpg">
                     <div class="photo__description">
                         <h3>Сніговик</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1482,7 +1481,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Канати" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/ALM-076 Канаты.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM-076 Канаты.jpg">
                     <div class="photo__description">
                         <h3>Канати</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1493,7 +1492,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Коти" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/ALM051 Коты.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM051 Коты.jpg">
                     <div class="photo__description">
                         <h3>Коти</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1504,7 +1503,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Сови" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/ALM064 Совы.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM064 Совы.jpg">
                     <div class="photo__description">
                         <h3>Сови</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1515,7 +1514,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Гарний день" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/ALM116 Хороший день.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM116 Хороший день.jpg">
                     <div class="photo__description">
                         <h3>Гарний день</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1526,7 +1525,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Царский" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/ALM188 Царский.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM188 Царский.jpg">
                     <div class="photo__description">
                         <h3>Царський</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1537,7 +1536,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Інь та Янь" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/ALM214 Инь и ян.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM214 Инь и ян.jpg">
                     <div class="photo__description">
                         <h3>Інь та Янь</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1548,7 +1547,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Перо" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/ALM275 Перо.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM275 Перо.jpg">
                     <div class="photo__description">
                         <h3>Перо</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1559,7 +1558,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Париж" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/ALM5734 Париж.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM5734 Париж.jpg">
                     <div class="photo__description">
                         <h3>Париж</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1570,7 +1569,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Лол" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/lolglam_pled ЛОЛ.jpg">
+                    <img alt="photo product" src="./img/Pled/lolglam_pled ЛОЛ.jpg">
                     <div class="photo__description">
                         <h3>Лол</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1581,7 +1580,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Лол рожевий" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/lolglam_pled_1 лол розовый.jpg">
+                    <img alt="photo product" src="./img/Pled/lolglam_pled_1 лол розовый.jpg">
                     <div class="photo__description">
                         <h3>Лол рожевий</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1592,7 +1591,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Лол смуга" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/lolpled Лол-полоска.jpg">
+                    <img alt="photo product" src="./img/Pled/lolpled Лол-полоска.jpg">
                     <div class="photo__description">
                         <h3>Лол смуга</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1603,7 +1602,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Лол рерлина" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/lolpled_1 Лол-Жемчуг.jpg">
+                    <img alt="photo product" src="./img/Pled/lolpled_1 Лол-Жемчуг.jpg">
                     <div class="photo__description">
                         <h3>Лол перлина</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1614,7 +1613,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Дерево" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/VL-FL212 Дерево.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-FL212 Дерево.jpg">
                     <div class="photo__description">
                         <h3>Дерево</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1625,7 +1624,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Елізабет" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/VL-FL612 Єлизабет.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-FL612 Єлизабет.jpg">
                     <div class="photo__description">
                         <h3>Елізабет</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1636,7 +1635,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Сніжинка" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/vl-fl7402 Снежинки.jpg">
+                    <img alt="photo product" src="./img/Pled/vl-fl7402 Снежинки.jpg">
                     <div class="photo__description">
                         <h3>Сніжинка</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1647,7 +1646,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Новорічний" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/vl-fl7407 Новогодняя.jpg">
+                    <img alt="photo product" src="./img/Pled/vl-fl7407 Новогодняя.jpg">
                     <div class="photo__description">
                         <h3>Новорічний</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1658,7 +1657,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Тачки" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/VL-SF119 Тачки.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SF119 Тачки.jpg">
                     <div class="photo__description">
                         <h3>Тачки</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1669,7 +1668,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Газета" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/VL-SF121Газета.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SF121Газета.jpg">
                     <div class="photo__description">
                         <h3>Газета</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1680,7 +1679,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Армані" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/VL-SF31 Armani.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SF31 Armani.jpg">
                     <div class="photo__description">
                         <h3>Армані</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1691,7 +1690,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Кубик" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/VL-SF42 Кубик.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SF42 Кубик.jpg">
                     <div class="photo__description">
                         <h3>Кубик</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1702,7 +1701,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Чорний Діор" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/VL-SF66 black dior.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SF66 black dior.jpg">
                     <div class="photo__description">
                         <h3>Чорний Діор</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1713,7 +1712,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="ВІП" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/VL-SF70 VIP.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SF70 VIP.jpg">
                     <div class="photo__description">
                         <h3>ВІП</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1724,7 +1723,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Мопси" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/VL-SF744 Мопсы.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SF744 Мопсы.jpg">
                     <div class="photo__description">
                         <h3>Мопси</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1735,7 +1734,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Міккі" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/VL-SF778 Мики.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SF778 Мики.jpg">
                     <div class="photo__description">
                         <h3>Міккі</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1746,7 +1745,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Вернісаж" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/VL-SP06 Вернесаж.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SP06 Вернесаж.jpg">
                     <div class="photo__description">
                         <h3>Вернісаж</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1757,7 +1756,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Версачі" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/VL003 Versace.jpg">
+                    <img alt="photo product" src="./img/Pled/VL003 Versace.jpg">
                     <div class="photo__description">
                         <h3>Версачі</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1768,7 +1767,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Діор" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/vl057 dior.jpg">
+                    <img alt="photo product" src="./img/Pled/vl057 dior.jpg">
                     <div class="photo__description">
                         <h3>Діор</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1779,7 +1778,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Гуччі" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/vl1377gucci.jpg">
+                    <img alt="photo product" src="./img/Pled/vl1377gucci.jpg">
                     <div class="photo__description">
                         <h3>Гуччі</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1790,7 +1789,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Королівський" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/VLSF05 Королевский.jpg">
+                    <img alt="photo product" src="./img/Pled/VLSF05 Королевский.jpg">
                     <div class="photo__description">
                         <h3>Королівський</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1801,7 +1800,7 @@
                     </div>
                 </div>
                 <div data-price="692 грн" data-name="Шанель" data-set="Плед 160х220" class="column">
-                    <img src="./img/Pled/vlsf32Channel.jpg">
+                    <img alt="photo product" src="./img/Pled/vlsf32Channel.jpg">
                     <div class="photo__description">
                         <h3>Шанель</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1819,7 +1818,7 @@
         <div class="wrapper">
             <div class="row">
                 <div data-price="772 грн" data-name="Сніговик" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/ALM-065 Снеговик.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM-065 Снеговик.jpg">
                     <div class="photo__description">
                         <h3>Сніговик</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1829,7 +1828,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Канати" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/ALM-076 Канаты.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM-076 Канаты.jpg">
                     <div class="photo__description">
                         <h3>Канати</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1840,7 +1839,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Коти" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/ALM051 Коты.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM051 Коты.jpg">
                     <div class="photo__description">
                         <h3>Коти</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1851,7 +1850,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Сови" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/ALM064 Совы.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM064 Совы.jpg">
                     <div class="photo__description">
                         <h3>Сови</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1862,7 +1861,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Гарний день" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/ALM116 Хороший день.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM116 Хороший день.jpg">
                     <div class="photo__description">
                         <h3>Гарний день</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1873,7 +1872,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Царський" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/ALM188 Царский.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM188 Царский.jpg">
                     <div class="photo__description">
                         <h3>Царський</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1884,7 +1883,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Інь та Янь" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/ALM214 Инь и ян.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM214 Инь и ян.jpg">
                     <div class="photo__description">
                         <h3>Інь та Янь</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1895,7 +1894,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Перо" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/ALM275 Перо.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM275 Перо.jpg">
                     <div class="photo__description">
                         <h3>Перо</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1906,7 +1905,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Париж" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/ALM5734 Париж.jpg">
+                    <img alt="photo product" src="./img/Pled/ALM5734 Париж.jpg">
                     <div class="photo__description">
                         <h3>Париж</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1917,7 +1916,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Лол" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/lolglam_pled ЛОЛ.jpg">
+                    <img alt="photo product" src="./img/Pled/lolglam_pled ЛОЛ.jpg">
                     <div class="photo__description">
                         <h3>Лол</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1928,7 +1927,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Лол рожевий" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/lolglam_pled_1 лол розовый.jpg">
+                    <img alt="photo product" src="./img/Pled/lolglam_pled_1 лол розовый.jpg">
                     <div class="photo__description">
                         <h3>Лол рожевий</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1939,7 +1938,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Лол смуга" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/lolpled Лол-полоска.jpg">
+                    <img alt="photo product" src="./img/Pled/lolpled Лол-полоска.jpg">
                     <div class="photo__description">
                         <h3>Лол смуга</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1950,7 +1949,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Лол перлина" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/lolpled_1 Лол-Жемчуг.jpg">
+                    <img alt="photo product" src="./img/Pled/lolpled_1 Лол-Жемчуг.jpg">
                     <div class="photo__description">
                         <h3>Лол перлина</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1961,7 +1960,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Дерево" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/VL-FL212 Дерево.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-FL212 Дерево.jpg">
                     <div class="photo__description">
                         <h3>Дерево</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1972,7 +1971,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Елізабет" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/VL-FL612 Єлизабет.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-FL612 Єлизабет.jpg">
                     <div class="photo__description">
                         <h3>Елізабет</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1983,7 +1982,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Сніжинка" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/vl-fl7402 Снежинки.jpg">
+                    <img alt="photo product" src="./img/Pled/vl-fl7402 Снежинки.jpg">
                     <div class="photo__description">
                         <h3>Сніжинка</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -1994,7 +1993,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Новорічний" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/vl-fl7407 Новогодняя.jpg">
+                    <img alt="photo product" src="./img/Pled/vl-fl7407 Новогодняя.jpg">
                     <div class="photo__description">
                         <h3>Новорічний</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -2005,7 +2004,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Тачки" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/VL-SF119 Тачки.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SF119 Тачки.jpg">
                     <div class="photo__description">
                         <h3>Тачки</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -2016,7 +2015,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Газета" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/VL-SF121Газета.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SF121Газета.jpg">
                     <div class="photo__description">
                         <h3>Газета</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -2027,7 +2026,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Армані" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/VL-SF31 Armani.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SF31 Armani.jpg">
                     <div class="photo__description">
                         <h3>Армані</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -2038,7 +2037,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Кубик" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/VL-SF42 Кубик.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SF42 Кубик.jpg">
                     <div class="photo__description">
                         <h3>Кубик</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -2049,7 +2048,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Чорний Діор" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/VL-SF66 black dior.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SF66 black dior.jpg">
                     <div class="photo__description">
                         <h3>Чорний Діор</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -2060,7 +2059,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="ВІП" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/VL-SF70 VIP.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SF70 VIP.jpg">
                     <div class="photo__description">
                         <h3>ВІП</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -2071,7 +2070,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Мопси" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/VL-SF744 Мопсы.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SF744 Мопсы.jpg">
                     <div class="photo__description">
                         <h3>Мопси</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -2082,7 +2081,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Міккі" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/VL-SF778 Мики.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SF778 Мики.jpg">
                     <div class="photo__description">
                         <h3>Міккі</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -2093,7 +2092,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Вернісаж" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/VL-SP06 Вернесаж.jpg">
+                    <img alt="photo product" src="./img/Pled/VL-SP06 Вернесаж.jpg">
                     <div class="photo__description">
                         <h3>Вернісаж</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -2104,7 +2103,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Версачі" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/VL003 Versace.jpg">
+                    <img alt="photo product" src="./img/Pled/VL003 Versace.jpg">
                     <div class="photo__description">
                         <h3>Версачі</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -2115,7 +2114,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Діор" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/vl057 dior.jpg">
+                    <img alt="photo product" src="./img/Pled/vl057 dior.jpg">
                     <div class="photo__description">
                         <h3>Діор</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -2126,7 +2125,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Гуччі" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/vl1377gucci.jpg">
+                    <img alt="photo product" src="./img/Pled/vl1377gucci.jpg">
                     <div class="photo__description">
                         <h3>Гуччі</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -2137,7 +2136,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Королівський" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/VLSF05 Королевский.jpg">
+                    <img alt="photo product" src="./img/Pled/VLSF05 Королевский.jpg">
                     <div class="photo__description">
                         <h3>Королівський</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -2148,7 +2147,7 @@
                     </div>
                 </div>
                 <div data-price="772 грн" data-name="Шанель" data-set="Плед 200х220" class="column">
-                    <img src="./img/Pled/vlsf32Channel.jpg">
+                    <img alt="photo product" src="./img/Pled/vlsf32Channel.jpg">
                     <div class="photo__description">
                         <h3>Шанель</h3>
                         <p class="photo__description_material">Матеріал: Полікоттон</p>
@@ -2356,7 +2355,7 @@
 <footer>
     <div class="footer_text">
         <i class="fa fa-solid fa-mobile footer-icon"></i>
-        <a class="footer__link-phone" href="tel:+380732058280">073-205-82-80</a>
+        <a class="footer__link-phone" href="tel:0732058280">073-205-82-80</a>
     </div>
 </footer>
 </body>
