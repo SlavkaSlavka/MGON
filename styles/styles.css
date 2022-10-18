@@ -425,6 +425,10 @@ header {
   font-size: 14px;
 }
 
+.pleid-character {
+  display: none;
+}
+
 .row {
   display: flex;
   justify-content: center;
@@ -447,7 +451,7 @@ header {
   position: absolute;
   width: 100%;
   height: 20px;
-  background: #a26941;
+  background: #e55f73;
   top: 50%;
   right: -15px;
   transform: translate(-15px, -50%);
