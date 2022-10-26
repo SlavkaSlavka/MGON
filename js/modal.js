@@ -13,6 +13,10 @@
         modalForm.find('.modal__set_description').text(set);
         modalForm.find('.modal__cost_description').text(price);
 
+        $('form#order_form .model_name').val(name);
+        $('form#order_form .kit').val(set);
+        $('form#order_form .price').val(price);
+
         modalForm.modal('show');
     });
 })();
@@ -32,3 +36,23 @@
         tab.tab('show');
     });
 })();
+
+$(document).ready(function () {
+    $(document).on('submit', 'form#order_form', function (event){
+        event.preventDefault();
+        var form_data = $(this).serialize();
+        $('#modal_form').modal('hide');
+        $.ajax({
+            type: "post",
+            url: "./send.php",
+            data: form_data,
+            success: function(responseData, textStatus, jqXHR) {
+                $('#modal_form').modal('hide');
+
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.log(errorThrown);
+            }
+        })
+    });
+});
