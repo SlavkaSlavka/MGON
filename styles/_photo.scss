@@ -79,6 +79,10 @@ h3 {
     justify-content: center;
     align-items: baseline;
 }
+.column img {
+    max-height: 229px;
+    min-height: 229px;
+}
 .photo-btn {
     font-family: inherit;
     font-weight: 500;
